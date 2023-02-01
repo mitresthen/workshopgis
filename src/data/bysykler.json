@@ -1,0 +1,1293 @@
+{
+  "last_updated": 1675167810,
+  "ttl": 10,
+  "version": "2.2",
+  "data": {
+    "stations": [
+      {
+        "station_id": "2352",
+        "name": "Bontelabo 8",
+        "address": "Bontelabo 8",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2352",
+          "ios": "bergenbysykkel://stations/2352"
+        },
+        "lat": 60.402481499763354,
+        "lon": 5.316471128195502,
+        "capacity": 7
+      },
+      {
+        "station_id": "2346",
+        "name": "Gamle Bergen",
+        "address": "Elsero 23",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2346",
+          "ios": "bergenbysykkel://stations/2346"
+        },
+        "lat": 60.41830821831951,
+        "lon": 5.309946203281243,
+        "capacity": 19
+      },
+      {
+        "station_id": "2338",
+        "name": "Bontelabo",
+        "address": "Bontelabo 2",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2338",
+          "ios": "bergenbysykkel://stations/2338"
+        },
+        "lat": 60.40175764348675,
+        "lon": 5.316562300638424,
+        "capacity": 7
+      },
+      {
+        "station_id": "2336",
+        "name": "M\u00f8llestranden",
+        "address": "M\u00f8llendalsveien 62",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2336",
+          "ios": "bergenbysykkel://stations/2336"
+        },
+        "lat": 60.380044402639385,
+        "lon": 5.350823586678217,
+        "capacity": 14
+      },
+      {
+        "station_id": "2322",
+        "name": "H\u00f8yteknologisenteret",
+        "address": "Thorm\u00f8hlensgate 55",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2322",
+          "ios": "bergenbysykkel://stations/2322"
+        },
+        "lat": 60.38174958551062,
+        "lon": 5.331698655041777,
+        "capacity": 25
+      },
+      {
+        "station_id": "2321",
+        "name": "Damsg\u00e5rdsveien 125",
+        "address": "Damsg\u00e5rdsveien 125",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2321",
+          "ios": "bergenbysykkel://stations/2321"
+        },
+        "lat": 60.38422650043981,
+        "lon": 5.3114871140229525,
+        "capacity": 19
+      },
+      {
+        "station_id": "2314",
+        "name": "Kalfarveien 31",
+        "address": "Kalfarveien 31",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2314",
+          "ios": "bergenbysykkel://stations/2314"
+        },
+        "lat": 60.388242218095,
+        "lon": 5.34094712971887,
+        "capacity": 13
+      },
+      {
+        "station_id": "2313",
+        "name": "Solheimsviken",
+        "address": "Solheimsgaten 7D",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/2313",
+          "ios": "bergenbysykkel://stations/2313"
+        },
+        "lat": 60.37708169275558,
+        "lon": 5.335575458852787,
+        "capacity": 19
+      },
+      {
+        "station_id": "1900",
+        "name": "Tonningneset",
+        "address": "M\u00f8llendalsveien 31",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1900",
+          "ios": "bergenbysykkel://stations/1900"
+        },
+        "lat": 60.379576056996115,
+        "lon": 5.344655017198988,
+        "capacity": 19
+      },
+      {
+        "station_id": "1899",
+        "name": "Camilla Colletts gate",
+        "address": "Bj\u00f8rnsons gate 28b",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1899",
+          "ios": "bergenbysykkel://stations/1899"
+        },
+        "lat": 60.37214138801542,
+        "lon": 5.346568012885058,
+        "capacity": 13
+      },
+      {
+        "station_id": "1898",
+        "name": "Kronstad",
+        "address": "St. Olavs vei 15",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1898",
+          "ios": "bergenbysykkel://stations/1898"
+        },
+        "lat": 60.3720506380196,
+        "lon": 5.352659970408496,
+        "capacity": 25
+      },
+      {
+        "station_id": "1897",
+        "name": "NHH",
+        "address": "Helleveien 30",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1897",
+          "ios": "bergenbysykkel://stations/1897"
+        },
+        "lat": 60.423343433292786,
+        "lon": 5.303070676006087,
+        "capacity": 20
+      },
+      {
+        "station_id": "1896",
+        "name": "Takhagen p\u00e5 Nordnes",
+        "address": "Nordnesveien 66",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1896",
+          "ios": "bergenbysykkel://stations/1896"
+        },
+        "lat": 60.39886453454994,
+        "lon": 5.306410871328268,
+        "capacity": 20
+      },
+      {
+        "station_id": "1895",
+        "name": "Kirkegaten",
+        "address": "Kirkegaten 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1895",
+          "ios": "bergenbysykkel://stations/1895"
+        },
+        "lat": 60.40568787342849,
+        "lon": 5.325658910381037,
+        "capacity": 16
+      },
+      {
+        "station_id": "1894",
+        "name": "Kong Oscars gate",
+        "address": "Kong Oscars gate 36",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1894",
+          "ios": "bergenbysykkel://stations/1894"
+        },
+        "lat": 60.393323250707,
+        "lon": 5.330654155344547,
+        "capacity": 26
+      },
+      {
+        "station_id": "1893",
+        "name": "Haukelandshallen",
+        "address": "St. Olavs vei 50",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1893",
+          "ios": "bergenbysykkel://stations/1893"
+        },
+        "lat": 60.370493777025985,
+        "lon": 5.353846489647282,
+        "capacity": 19
+      },
+      {
+        "station_id": "1892",
+        "name": "Neumanns gate II",
+        "address": "Neumanns gate 25",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1892",
+          "ios": "bergenbysykkel://stations/1892"
+        },
+        "lat": 60.39097915423838,
+        "lon": 5.320656172070585,
+        "capacity": 17
+      },
+      {
+        "station_id": "1891",
+        "name": "Rosenbergsgaten",
+        "address": "Rosenbergsgaten 34",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1891",
+          "ios": "bergenbysykkel://stations/1891"
+        },
+        "lat": 60.38904687509401,
+        "lon": 5.321882967938819,
+        "capacity": 19
+      },
+      {
+        "station_id": "1890",
+        "name": "Christian Michelsens institutt",
+        "address": "Jekteviksbakken 31",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1890",
+          "ios": "bergenbysykkel://stations/1890"
+        },
+        "lat": 60.38971028611195,
+        "lon": 5.314041873201262,
+        "capacity": 16
+      },
+      {
+        "station_id": "1889",
+        "name": "Nordnes Sj\u00f8bad",
+        "address": "Nordnesparken 30",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1889",
+          "ios": "bergenbysykkel://stations/1889"
+        },
+        "lat": 60.3992308109043,
+        "lon": 5.302344558881117,
+        "capacity": 19
+      },
+      {
+        "station_id": "1888",
+        "name": "Bergen Jernbanestasjon II",
+        "address": "Str\u00f8msgaten 4",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1888",
+          "ios": "bergenbysykkel://stations/1888"
+        },
+        "lat": 60.39066508674793,
+        "lon": 5.333027169585989,
+        "capacity": 13
+      },
+      {
+        "station_id": "1816",
+        "name": "Hansaparken",
+        "address": "Kalfarveien 80",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1816",
+          "ios": "bergenbysykkel://stations/1816"
+        },
+        "lat": 60.38604412210008,
+        "lon": 5.349253890141261,
+        "capacity": 19
+      },
+      {
+        "station_id": "1048",
+        "name": "\u00d8vre Korskirkeallmenning",
+        "address": "Kong Oskars gate 18",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1048",
+          "ios": "bergenbysykkel://stations/1048"
+        },
+        "lat": 60.395099485721786,
+        "lon": 5.328645087376344,
+        "capacity": 22
+      },
+      {
+        "station_id": "1047",
+        "name": "Welhavens gate 64",
+        "address": "Welhavens gate 64",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1047",
+          "ios": "bergenbysykkel://stations/1047"
+        },
+        "lat": 60.38445114789948,
+        "lon": 5.324440726278226,
+        "capacity": 19
+      },
+      {
+        "station_id": "1046",
+        "name": "Ole Vigs gate",
+        "address": "Ole Vigs Gate 4",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1046",
+          "ios": "bergenbysykkel://stations/1046"
+        },
+        "lat": 60.385922875207626,
+        "lon": 5.321431717819451,
+        "capacity": 19
+      },
+      {
+        "station_id": "1045",
+        "name": "Damsg\u00e5rdsveien 2",
+        "address": "Damsg\u00e5rdsveien 34",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1045",
+          "ios": "bergenbysykkel://stations/1045"
+        },
+        "lat": 60.37802198798124,
+        "lon": 5.329383048102329,
+        "capacity": 16
+      },
+      {
+        "station_id": "1044",
+        "name": "Geofysen",
+        "address": "All\u00e9gaten 55",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1044",
+          "ios": "bergenbysykkel://stations/1044"
+        },
+        "lat": 60.38429376979795,
+        "lon": 5.330450845972905,
+        "capacity": 16
+      },
+      {
+        "station_id": "1043",
+        "name": "Comfort Hotel Bergen",
+        "address": "Strandgaten 190",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/1043",
+          "ios": "bergenbysykkel://stations/1043"
+        },
+        "lat": 60.396224461626154,
+        "lon": 5.315384703788823,
+        "capacity": 19
+      },
+      {
+        "station_id": "819",
+        "name": "Thorm\u00f8hlens gate",
+        "address": "Thorm\u00f8hlensgate 30",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/819",
+          "ios": "bergenbysykkel://stations/819"
+        },
+        "lat": 60.38316244112318,
+        "lon": 5.324053067317891,
+        "capacity": 26
+      },
+      {
+        "station_id": "818",
+        "name": "V\u00e5gsallmenningen",
+        "address": "V\u00e5gsalmenningen 7",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/818",
+          "ios": "bergenbysykkel://stations/818"
+        },
+        "lat": 60.393689548634,
+        "lon": 5.3265806966930995,
+        "capacity": 16
+      },
+      {
+        "station_id": "817",
+        "name": "Nedre Korskirkeallmenning",
+        "address": "Nedre Korskirkeallmenning 8",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/817",
+          "ios": "bergenbysykkel://stations/817"
+        },
+        "lat": 60.394549852530844,
+        "lon": 5.327049981572372,
+        "capacity": 25
+      },
+      {
+        "station_id": "816",
+        "name": "\u00d8stre Murallmenningen nedre",
+        "address": "Strandgaten 53",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/816",
+          "ios": "bergenbysykkel://stations/816"
+        },
+        "lat": 60.395143864343254,
+        "lon": 5.320002322335455,
+        "capacity": 19
+      },
+      {
+        "station_id": "815",
+        "name": "G\u00e5gaten",
+        "address": "Strandgaten 60",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/815",
+          "ios": "bergenbysykkel://stations/815"
+        },
+        "lat": 60.395070112977045,
+        "lon": 5.31879835082907,
+        "capacity": 10
+      },
+      {
+        "station_id": "814",
+        "name": "Nykirken",
+        "address": "Strandgaten 197",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/814",
+          "ios": "bergenbysykkel://stations/814"
+        },
+        "lat": 60.396949224333255,
+        "lon": 5.313494727727743,
+        "capacity": 16
+      },
+      {
+        "station_id": "812",
+        "name": "Hans Hauges gate",
+        "address": "Jens Rolfens gate 6",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/812",
+          "ios": "bergenbysykkel://stations/812"
+        },
+        "lat": 60.40190553013225,
+        "lon": 5.324747767839426,
+        "capacity": 13
+      },
+      {
+        "station_id": "811",
+        "name": "Amalie Skrams vei Nord",
+        "address": "Amalie Skrams vei 25",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/811",
+          "ios": "bergenbysykkel://stations/811"
+        },
+        "lat": 60.410929182460585,
+        "lon": 5.324662770153282,
+        "capacity": 13
+      },
+      {
+        "station_id": "810",
+        "name": "Amalie Skrams vei S\u00f8r",
+        "address": "Amalie Skramsvei 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/810",
+          "ios": "bergenbysykkel://stations/810"
+        },
+        "lat": 60.408096993005785,
+        "lon": 5.325510899047174,
+        "capacity": 25
+      },
+      {
+        "station_id": "809",
+        "name": "Skutevikstorget",
+        "address": "Skutevikstorget 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/809",
+          "ios": "bergenbysykkel://stations/809"
+        },
+        "lat": 60.40222876911276,
+        "lon": 5.320744723528605,
+        "capacity": 16
+      },
+      {
+        "station_id": "808",
+        "name": "Damsg\u00e5rdsveien 71",
+        "address": "Damsg\u00e5rdsveien 69-71",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/808",
+          "ios": "bergenbysykkel://stations/808"
+        },
+        "lat": 60.380262713779956,
+        "lon": 5.323223146883635,
+        "capacity": 12
+      },
+      {
+        "station_id": "807",
+        "name": "Dreggsallmenningen Nord",
+        "address": "Dreggsalmenningen 10",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/807",
+          "ios": "bergenbysykkel://stations/807"
+        },
+        "lat": 60.398656493732524,
+        "lon": 5.3221425864564935,
+        "capacity": 16
+      },
+      {
+        "station_id": "806",
+        "name": "Dreggsallmenningen S\u00f8r",
+        "address": "Bryggen 13",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/806",
+          "ios": "bergenbysykkel://stations/806"
+        },
+        "lat": 60.39770902893835,
+        "lon": 5.32200057798218,
+        "capacity": 34
+      },
+      {
+        "station_id": "804",
+        "name": "Stenersen",
+        "address": "Rasmus Meyers alle 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/804",
+          "ios": "bergenbysykkel://stations/804"
+        },
+        "lat": 60.390174061139966,
+        "lon": 5.324792207669702,
+        "capacity": 19
+      },
+      {
+        "station_id": "803",
+        "name": "Permanenten",
+        "address": "Olav Kyrresgate 22",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/803",
+          "ios": "bergenbysykkel://stations/803"
+        },
+        "lat": 60.3906427466302,
+        "lon": 5.324397430398562,
+        "capacity": 16
+      },
+      {
+        "station_id": "802",
+        "name": "H\u00e5konsgaten",
+        "address": "H\u00e5konsgaten 2",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/802",
+          "ios": "bergenbysykkel://stations/802"
+        },
+        "lat": 60.39118461048114,
+        "lon": 5.318026298282803,
+        "capacity": 19
+      },
+      {
+        "station_id": "800",
+        "name": "Magnus Lagab\u00f8tes Plass",
+        "address": "Magnus Lagab\u00f8tes plass 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/800",
+          "ios": "bergenbysykkel://stations/800"
+        },
+        "lat": 60.38972226200196,
+        "lon": 5.314854189834826,
+        "capacity": 10
+      },
+      {
+        "station_id": "799",
+        "name": "HF-Bygget",
+        "address": "Sydnesplassen 7",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/799",
+          "ios": "bergenbysykkel://stations/799"
+        },
+        "lat": 60.387853713374845,
+        "lon": 5.318712852428234,
+        "capacity": 19
+      },
+      {
+        "station_id": "798",
+        "name": "H.M. Pinnsvinet",
+        "address": "Haakon Sheteligs plass 5",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/798",
+          "ios": "bergenbysykkel://stations/798"
+        },
+        "lat": 60.38808210546723,
+        "lon": 5.320712071347316,
+        "capacity": 16
+      },
+      {
+        "station_id": "797",
+        "name": "John Lunds plass",
+        "address": "John Lunds plass 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/797",
+          "ios": "bergenbysykkel://stations/797"
+        },
+        "lat": 60.38824732496974,
+        "lon": 5.324558211682643,
+        "capacity": 19
+      },
+      {
+        "station_id": "796",
+        "name": "Str\u00f8mgaten",
+        "address": "Allegaten 17",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/796",
+          "ios": "bergenbysykkel://stations/796"
+        },
+        "lat": 60.38658238047282,
+        "lon": 5.326041074182427,
+        "capacity": 10
+      },
+      {
+        "station_id": "795",
+        "name": "Fosswinckels gate",
+        "address": "Fosswinckels gate 45",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/795",
+          "ios": "bergenbysykkel://stations/795"
+        },
+        "lat": 60.38658166593217,
+        "lon": 5.327978744635743,
+        "capacity": 10
+      },
+      {
+        "station_id": "794",
+        "name": "St. Jakobs Plass",
+        "address": "Hans Tanks gate 4",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/794",
+          "ios": "bergenbysykkel://stations/794"
+        },
+        "lat": 60.386681495848364,
+        "lon": 5.3309780770646,
+        "capacity": 22
+      },
+      {
+        "station_id": "793",
+        "name": "Zander Kaaes gate",
+        "address": "Zander Kaaes gate 8",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/793",
+          "ios": "bergenbysykkel://stations/793"
+        },
+        "lat": 60.390108717939874,
+        "lon": 5.3353874337574325,
+        "capacity": 10
+      },
+      {
+        "station_id": "792",
+        "name": "Busstasjonen 2 Vest",
+        "address": "Fj\u00f8sangerveien 4",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/792",
+          "ios": "bergenbysykkel://stations/792"
+        },
+        "lat": 60.388283833541436,
+        "lon": 5.332872680372475,
+        "capacity": 10
+      },
+      {
+        "station_id": "791",
+        "name": "Busstasjonen 4 S\u00f8r",
+        "address": "Lungeg\u00e5rdskaien 12",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/791",
+          "ios": "bergenbysykkel://stations/791"
+        },
+        "lat": 60.387058789354164,
+        "lon": 5.335633911730724,
+        "capacity": 13
+      },
+      {
+        "station_id": "790",
+        "name": "Busstasjonen 3  \u00d8st",
+        "address": "Lugeg\u00e5rdskaien 12",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/790",
+          "ios": "bergenbysykkel://stations/790"
+        },
+        "lat": 60.38785633733042,
+        "lon": 5.334459219764085,
+        "capacity": 13
+      },
+      {
+        "station_id": "789",
+        "name": "Busstasjonen 1 Nord",
+        "address": "\u00d8stre Str\u00f8mkaien",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/789",
+          "ios": "bergenbysykkel://stations/789"
+        },
+        "lat": 60.38890977889046,
+        "lon": 5.333817119783134,
+        "capacity": 24
+      },
+      {
+        "station_id": "788",
+        "name": "Danmarksplass",
+        "address": "Fj\u00f8sangerveien 36",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/788",
+          "ios": "bergenbysykkel://stations/788"
+        },
+        "lat": 60.376082994809856,
+        "lon": 5.339851409058042,
+        "capacity": 31
+      },
+      {
+        "station_id": "646",
+        "name": "Bj\u00f8rnsonsgate",
+        "address": "Kiellands gate 10",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/646",
+          "ios": "bergenbysykkel://stations/646"
+        },
+        "lat": 60.373985939857135,
+        "lon": 5.342082137178068,
+        "capacity": 19
+      },
+      {
+        "station_id": "645",
+        "name": "Odontologen",
+        "address": "\u00c5rstadsveien 21",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/645",
+          "ios": "bergenbysykkel://stations/645"
+        },
+        "lat": 60.38103776618004,
+        "lon": 5.35905189499951,
+        "capacity": 16
+      },
+      {
+        "station_id": "644",
+        "name": "Solheimsgaten (ved Extra)",
+        "address": "Solheimgaten 33",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/644",
+          "ios": "bergenbysykkel://stations/644"
+        },
+        "lat": 60.37514055132067,
+        "lon": 5.338517421420761,
+        "capacity": 19
+      },
+      {
+        "station_id": "642",
+        "name": "B\u00f8hmergaten",
+        "address": "B\u00f8hmergaten 42",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/642",
+          "ios": "bergenbysykkel://stations/642"
+        },
+        "lat": 60.376252795872844,
+        "lon": 5.334276104612741,
+        "capacity": 16
+      },
+      {
+        "station_id": "641",
+        "name": "Krohnviken",
+        "address": "Solheimsgaten 7",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/641",
+          "ios": "bergenbysykkel://stations/641"
+        },
+        "lat": 60.37810721367397,
+        "lon": 5.3310207695192275,
+        "capacity": 19
+      },
+      {
+        "station_id": "640",
+        "name": "Damsg\u00e5rdsveien",
+        "address": "Damg\u00e5rdsveien 82",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/640",
+          "ios": "bergenbysykkel://stations/640"
+        },
+        "lat": 60.381511501995426,
+        "lon": 5.3194353641521275,
+        "capacity": 16
+      },
+      {
+        "station_id": "639",
+        "name": "Frydenb\u00f8 Marina",
+        "address": "Damsg\u00e5rdsveien 135",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/639",
+          "ios": "bergenbysykkel://stations/639"
+        },
+        "lat": 60.384467341026586,
+        "lon": 5.310007717995973,
+        "capacity": 19
+      },
+      {
+        "station_id": "638",
+        "name": "Damsg\u00e5rdsallmenningen",
+        "address": "Damsg\u00e5rdsallmenningen 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/638",
+          "ios": "bergenbysykkel://stations/638"
+        },
+        "lat": 60.386709149786796,
+        "lon": 5.299130112557805,
+        "capacity": 10
+      },
+      {
+        "station_id": "368",
+        "name": "Festplassen",
+        "address": "Christies gate 3A",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/368",
+          "ios": "bergenbysykkel://stations/368"
+        },
+        "lat": 60.391123958982405,
+        "lon": 5.325713785893413,
+        "capacity": 25
+      },
+      {
+        "station_id": "367",
+        "name": "Haraldsplass",
+        "address": "Ulriksdal 8",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/367",
+          "ios": "bergenbysykkel://stations/367"
+        },
+        "lat": 60.37911124360612,
+        "lon": 5.361202283994771,
+        "capacity": 12
+      },
+      {
+        "station_id": "301",
+        "name": "Lars Hilles",
+        "address": "Lars Hilles gate 18",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/301",
+          "ios": "bergenbysykkel://stations/301"
+        },
+        "lat": 60.388117889090395,
+        "lon": 5.331487235597251,
+        "capacity": 16
+      },
+      {
+        "station_id": "298",
+        "name": "\u00d8stre Murallmenningen \u00f8vre",
+        "address": "\u00d8stre Murallmenningen 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/298",
+          "ios": "bergenbysykkel://stations/298"
+        },
+        "lat": 60.39397677863768,
+        "lon": 5.318713236118583,
+        "capacity": 19
+      },
+      {
+        "station_id": "223",
+        "name": "R\u00e5dhuset",
+        "address": "Kaigaten",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/223",
+          "ios": "bergenbysykkel://stations/223"
+        },
+        "lat": 60.39148438859138,
+        "lon": 5.328519197920741,
+        "capacity": 19
+      },
+      {
+        "station_id": "222",
+        "name": "Sandviken Brygge",
+        "address": "M\u00e5seskj\u00e6ret",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/222",
+          "ios": "bergenbysykkel://stations/222"
+        },
+        "lat": 60.41294568274233,
+        "lon": 5.320870309021842,
+        "capacity": 19
+      },
+      {
+        "station_id": "221",
+        "name": "Sandvikstorget",
+        "address": "sandvikstorget 11",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/221",
+          "ios": "bergenbysykkel://stations/221"
+        },
+        "lat": 60.408582102784685,
+        "lon": 5.322648583141813,
+        "capacity": 19
+      },
+      {
+        "station_id": "220",
+        "name": "M\u00f8llendalsplass",
+        "address": "M\u00f8llendalsveien 60",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/220",
+          "ios": "bergenbysykkel://stations/220"
+        },
+        "lat": 60.379685765470725,
+        "lon": 5.3519936304809335,
+        "capacity": 16
+      },
+      {
+        "station_id": "219",
+        "name": "Jonsvollkvartalet",
+        "address": "Jonsvollsgaten",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/219",
+          "ios": "bergenbysykkel://stations/219"
+        },
+        "lat": 60.39267683527631,
+        "lon": 5.317308285189142,
+        "capacity": 19
+      },
+      {
+        "station_id": "217",
+        "name": "Nykirkekaien",
+        "address": "C Sundsgate",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/217",
+          "ios": "bergenbysykkel://stations/217"
+        },
+        "lat": 60.39705738914522,
+        "lon": 5.314548482139799,
+        "capacity": 10
+      },
+      {
+        "station_id": "216",
+        "name": "Johanneskirken",
+        "address": "Sydnesplassen",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/216",
+          "ios": "bergenbysykkel://stations/216"
+        },
+        "lat": 60.38853002489311,
+        "lon": 5.318665231464365,
+        "capacity": 13
+      },
+      {
+        "station_id": "215",
+        "name": "Nonneseterplass",
+        "address": "Kaigaten 5 ved Vincent Lounge",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/215",
+          "ios": "bergenbysykkel://stations/215"
+        },
+        "lat": 60.38967202352878,
+        "lon": 5.3336050852019525,
+        "capacity": 37
+      },
+      {
+        "station_id": "214",
+        "name": "Nyg\u00e5rdsporten",
+        "address": "Nyg\u00e5rdsgaten",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/214",
+          "ios": "bergenbysykkel://stations/214"
+        },
+        "lat": 60.3839343833222,
+        "lon": 5.333450454511649,
+        "capacity": 28
+      },
+      {
+        "station_id": "212",
+        "name": "Klosteret",
+        "address": "Klosteret 17",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/212",
+          "ios": "bergenbysykkel://stations/212"
+        },
+        "lat": 60.395137943082446,
+        "lon": 5.314946630388022,
+        "capacity": 10
+      },
+      {
+        "station_id": "157",
+        "name": "Florida Bybanestopp",
+        "address": "Jahnebakken",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/157",
+          "ios": "bergenbysykkel://stations/157"
+        },
+        "lat": 60.382254745562825,
+        "lon": 5.3323324699108525,
+        "capacity": 25
+      },
+      {
+        "station_id": "156",
+        "name": "Allehelgens plass",
+        "address": "Allehelgens gate",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/156",
+          "ios": "bergenbysykkel://stations/156"
+        },
+        "lat": 60.39265146337743,
+        "lon": 5.328976911981613,
+        "capacity": 26
+      },
+      {
+        "station_id": "151",
+        "name": "Sm\u00e5strandgaten",
+        "address": "Sm\u00e5strandgaten 3",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/151",
+          "ios": "bergenbysykkel://stations/151"
+        },
+        "lat": 60.39309812241306,
+        "lon": 5.327022724925882,
+        "capacity": 25
+      },
+      {
+        "station_id": "150",
+        "name": "Torget",
+        "address": "Shetlands-Larsens brygge",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/150",
+          "ios": "bergenbysykkel://stations/150"
+        },
+        "lat": 60.39587808663882,
+        "lon": 5.325283812313046,
+        "capacity": 25
+      },
+      {
+        "station_id": "140",
+        "name": "Sandviksbodene",
+        "address": "Sj\u00f8gaten 2A",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/140",
+          "ios": "bergenbysykkel://stations/140"
+        },
+        "lat": 60.40569501689435,
+        "lon": 5.323373526334763,
+        "capacity": 10
+      },
+      {
+        "station_id": "138",
+        "name": "C. Sundts gate",
+        "address": "C. Sundts gate 64",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/138",
+          "ios": "bergenbysykkel://stations/138"
+        },
+        "lat": 60.39947506336557,
+        "lon": 5.308762204430565,
+        "capacity": 25
+      },
+      {
+        "station_id": "70",
+        "name": "Laksev\u00e5g senter",
+        "address": "Kringsj\u00e5veien 83",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/70",
+          "ios": "bergenbysykkel://stations/70"
+        },
+        "lat": 60.38963215691683,
+        "lon": 5.286516470683409,
+        "capacity": 19
+      },
+      {
+        "station_id": "98",
+        "name": "Brann Stadion",
+        "address": "Roald Amundsensvei 11",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/98",
+          "ios": "bergenbysykkel://stations/98"
+        },
+        "lat": 60.367425453190464,
+        "lon": 5.3551910634374735,
+        "capacity": 19
+      },
+      {
+        "station_id": "69",
+        "name": "Laksev\u00e5g v/Kirkebukten",
+        "address": "Damsg\u00e5rdveien 207",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/69",
+          "ios": "bergenbysykkel://stations/69"
+        },
+        "lat": 60.386068777690944,
+        "lon": 5.3001083072740585,
+        "capacity": 25
+      },
+      {
+        "station_id": "83",
+        "name": "Bergen jernbanestasjon",
+        "address": "Str\u00f8mgaten / Zander Kaaes gate.",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/83",
+          "ios": "bergenbysykkel://stations/83"
+        },
+        "lat": 60.390414110522414,
+        "lon": 5.3326504538233905,
+        "capacity": 16
+      },
+      {
+        "station_id": "36",
+        "name": "Torgallmenningen",
+        "address": "Valkendorfsgaten 2A",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/36",
+          "ios": "bergenbysykkel://stations/36"
+        },
+        "lat": 60.39291769029913,
+        "lon": 5.323669092809325,
+        "capacity": 24
+      },
+      {
+        "station_id": "82",
+        "name": "Den Nationale Scene",
+        "address": "Engen1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/82",
+          "ios": "bergenbysykkel://stations/82"
+        },
+        "lat": 60.39245536165015,
+        "lon": 5.320185176096857,
+        "capacity": 10
+      },
+      {
+        "station_id": "24",
+        "name": "Studentboligene",
+        "address": "M\u00f8llendalsveien 52",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/24",
+          "ios": "bergenbysykkel://stations/24"
+        },
+        "lat": 60.37831673774707,
+        "lon": 5.350897458652753,
+        "capacity": 31
+      },
+      {
+        "station_id": "131",
+        "name": "Gulating",
+        "address": "Gulating plass 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/131",
+          "ios": "bergenbysykkel://stations/131"
+        },
+        "lat": 60.391983600413376,
+        "lon": 5.32661819461282,
+        "capacity": 13
+      },
+      {
+        "station_id": "87",
+        "name": "AdO arena",
+        "address": "Lungeg\u00e5rdskaien",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/87",
+          "ios": "bergenbysykkel://stations/87"
+        },
+        "lat": 60.38543124330305,
+        "lon": 5.337431780062616,
+        "capacity": 19
+      },
+      {
+        "station_id": "132",
+        "name": "N\u00f8stetorget",
+        "address": "Sukkerhusbryggen",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/132",
+          "ios": "bergenbysykkel://stations/132"
+        },
+        "lat": 60.39222475946063,
+        "lon": 5.314881116119068,
+        "capacity": 36
+      },
+      {
+        "station_id": "22",
+        "name": "Skur 11",
+        "address": "Bryggen 13",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/22",
+          "ios": "bergenbysykkel://stations/22"
+        },
+        "lat": 60.396384231131684,
+        "lon": 5.324169337618514,
+        "capacity": 30
+      },
+      {
+        "station_id": "8",
+        "name": "Haukeland sykehus",
+        "address": "Jonas Lie vei",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/8",
+          "ios": "bergenbysykkel://stations/8"
+        },
+        "lat": 60.373637920628255,
+        "lon": 5.35659456239955,
+        "capacity": 19
+      },
+      {
+        "station_id": "33",
+        "name": "H\u00f8gskulen p\u00e5 Vestlandet",
+        "address": "Inndalsveien 28",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/33",
+          "ios": "bergenbysykkel://stations/33"
+        },
+        "lat": 60.369179844976586,
+        "lon": 5.349443793165847,
+        "capacity": 25
+      },
+      {
+        "station_id": "49",
+        "name": "Studentsenteret UiB",
+        "address": "Parkveien 1",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/49",
+          "ios": "bergenbysykkel://stations/49"
+        },
+        "lat": 60.38719801795013,
+        "lon": 5.322980046239536,
+        "capacity": 30
+      },
+      {
+        "station_id": "3",
+        "name": "Grieghallen",
+        "address": "Edvard Griegsplass",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/3",
+          "ios": "bergenbysykkel://stations/3"
+        },
+        "lat": 60.38819667374428,
+        "lon": 5.3285641370894155,
+        "capacity": 16
+      },
+      {
+        "station_id": "34",
+        "name": "Cornerteateret",
+        "address": "Thorm\u00f8hlens gate",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/34",
+          "ios": "bergenbysykkel://stations/34"
+        },
+        "lat": 60.38246949877819,
+        "lon": 5.3260934892086595,
+        "capacity": 25
+      },
+      {
+        "station_id": "7",
+        "name": "Neumanns gate",
+        "address": "Neumannsgate",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/7",
+          "ios": "bergenbysykkel://stations/7"
+        },
+        "lat": 60.39138580667719,
+        "lon": 5.319194867192266,
+        "capacity": 31
+      },
+      {
+        "station_id": "116",
+        "name": "Lysverket",
+        "address": "Rasmus Meyers alle",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/116",
+          "ios": "bergenbysykkel://stations/116"
+        },
+        "lat": 60.38962622255798,
+        "lon": 5.3298637396027,
+        "capacity": 34
+      },
+      {
+        "station_id": "75",
+        "name": "Akvariet",
+        "address": "Nordnesbakken 4",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/75",
+          "ios": "bergenbysykkel://stations/75"
+        },
+        "lat": 60.39987652272946,
+        "lon": 5.304686307890734,
+        "capacity": 18
+      },
+      {
+        "station_id": "5",
+        "name": "Moxy Hotellet",
+        "address": "Solheims gaten 3",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/5",
+          "ios": "bergenbysykkel://stations/5"
+        },
+        "lat": 60.37878279018753,
+        "lon": 5.3333274872102265,
+        "capacity": 11
+      },
+      {
+        "station_id": "117",
+        "name": "Verftet",
+        "address": "Ved USF",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/117",
+          "ios": "bergenbysykkel://stations/117"
+        },
+        "lat": 60.395877002094046,
+        "lon": 5.307755827707297,
+        "capacity": 19
+      },
+      {
+        "station_id": "58",
+        "name": "T\u00e5rnplass",
+        "address": "T\u00e5rnplass 3",
+        "rental_uris": {
+          "android": "bergenbysykkel://stations/58",
+          "ios": "bergenbysykkel://stations/58"
+        },
+        "lat": 60.39375532002469,
+        "lon": 5.3217920958013565,
+        "capacity": 25
+      }
+    ]
+  }
+}

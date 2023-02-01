@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/capabilities_1_1_1.dtd">
+<WMT_MS_Capabilities version="1.1.1">
+  <Service>
+    <Name>OGC:WMS</Name>
+    <Title>Kartverket - Cachetjenester</Title>
+    <Abstract>Grunnkart</Abstract>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://opencache.statkart.no/gatekeeper/gk/gk.open?SERVICE=WMS&amp;" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson>Tjenestedrift</ContactPerson>
+        <ContactOrganization>Kartverket</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition />
+      <ContactAddress>
+        <AddressType>physical</AddressType>
+        <Address />
+        <City>Honefoss</City>
+        <StateOrProvince>Buskerud</StateOrProvince>
+        <PostCode>3507</PostCode>
+        <Country>Norway</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone>08700</ContactVoiceTelephone>
+      <ContactFacsimileTelephone />
+      <ContactElectronicMailAddress>wms-drift@kartverket.no</ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees>None / Norge Digitalt</Fees>
+    <AccessConstraints>Copyright: Kartverket - see https://www.kartverket.no/data/Lisens/</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://opencache.statkart.no/gatekeeper/gk/gk.open?SERVICE=WMS&amp;" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://opencache.statkart.no/gatekeeper/gk/gk.open?SERVICE=WMS&amp;" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/html</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <Format>text/plain</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://opencache.statkart.no/gatekeeper/gk/gk.open?SERVICE=WMS&amp;" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+      <DescribeLayer>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://opencache.statkart.no/gatekeeper/gk/gk.open?SERVICE=WMS&amp;" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </DescribeLayer>
+      <GetLegendGraphic>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/gif</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://opencache.statkart.no/gatekeeper/gk/gk.open?SERVICE=WMS&amp;" />
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetLegendGraphic>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+    </Exception>
+    <Layer>
+      <Title>GeoWebCache WMS</Title>
+      <Abstract>Note that not all GeoWebCache instances provide a full WMS service.</Abstract>
+      <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+      <Layer>
+        <Name>norgeskart_bakgrunn</Name>
+        <Title>Norgeskart bakgrunn</Title>
+        <Abstract />
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>norgeskart_bakgrunn2</Name>
+        <Title>Norgeskart Bakgrunn2</Title>
+        <Abstract />
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+      </Layer>
+      <Layer>
+        <Name>topo4</Name>
+        <Title>Topografisk norgeskart 4</Title>
+        <Abstract />
+        <SRS>EPSG:3035</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3035" minx="2426378.0132" miny="-2288679.69439904" maxx="6293974.62149952" maxy="5446513.5222" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+      </Layer>
+      <Layer>
+        <Name>topo4graatone</Name>
+        <Title>Topografisk norgeskart 4 graatone</Title>
+        <Abstract />
+        <SRS>EPSG:3035</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3035" minx="2426378.0132" miny="-2288679.69439904" maxx="6293974.62149952" maxy="5446513.5222" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+      </Layer>
+      <Layer>
+        <Name>europa_forenklet</Name>
+        <Title>Europa forenklet</Title>
+        <Abstract />
+        <SRS>EPSG:3034</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3034" minx="-587060.16" miny="-1404774.2296000002" maxx="7600887.1296" maxy="6783173.06" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+      </Layer>
+      <Layer>
+        <Name>kartdata3</Name>
+        <Title>Kartdata3</Title>
+        <Abstract />
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+      </Layer>
+      <Layer>
+        <Name>norges_grunnkart</Name>
+        <Title>Norges grunnkart</Title>
+        <Abstract />
+        <SRS>EPSG:3035</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:3035" minx="2426378.0132" miny="-2288679.69439904" maxx="6293974.62149952" maxy="5446513.5222" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>norges_grunnkart_graatone</Name>
+        <Title>Norges grunnkart gråtone</Title>
+        <Abstract />
+        <SRS>EPSG:3035</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:3035" minx="2426378.0132" miny="-2288679.69439904" maxx="6293974.62149952" maxy="5446513.5222" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>egk</Name>
+        <Title>Europeiske grunnkart</Title>
+        <Abstract>Access Constraints: http://www.eea.europa.eu/data-and-maps/data/european-catchments-and-rivers-network#tab-metadata; http://www.gebco.net/data_and_products/gridded_bathymetry_data/documents/gebco_08.pdf; http://www.eurogeographics.org/content/eurogeographics-euroglobalmap-opendata</Abstract>
+        <SRS>EPSG:3035</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:3035" minx="2426378.0132" miny="-2288679.69439904" maxx="6293974.62149952" maxy="5446513.5222" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+      </Layer>
+      <Layer>
+        <Name>havbunn_grunnkart</Name>
+        <Title>Havbunn grunnkart</Title>
+        <Abstract>Access Constraints: http://www.eea.europa.eu/data-and-maps/data/european-catchments-and-rivers-network#tab-metadata; http://www.gebco.net/data_and_products/gridded_bathymetry_data/documents/gebco_08.pdf; http://www.eurogeographics.org/content/eurogeographics-euroglobalmap-opendata</Abstract>
+        <SRS>EPSG:3035</SRS>
+        <SRS>EPSG:3575</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3575" minx="-4889334.802954878" miny="-4889334.803445122" maxx="4889334.803445122" maxy="4889334.802954878" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3035" minx="2426378.0132" miny="-2288679.69439904" maxx="6293974.62149952" maxy="5446513.5222" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+      </Layer>
+      <Layer>
+        <Name>terreng_norgeskart</Name>
+        <Title>terreng Norgeskart</Title>
+        <Abstract />
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+      </Layer>
+      <Layer>
+        <Name>vegnett</Name>
+        <Title>Vegnett</Title>
+        <Abstract />
+        <SRS>EPSG:32633</SRS>
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>sjokartraster</Name>
+        <Title>Sjøkartraster</Title>
+        <Abstract />
+        <SRS>EPSG:3575</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:3575" minx="-4889334.802954878" miny="-4889334.803445122" maxx="4889334.803445122" maxy="4889334.802954878" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>toporaster4</Name>
+        <Title>Toporaster</Title>
+        <Abstract />
+        <SRS>EPSG:3575</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3575" minx="-4889334.802954878" miny="-4889334.803445122" maxx="4889334.803445122" maxy="4889334.802954878" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>fjellskygge</Name>
+        <Title>Fjellskygge</Title>
+        <Abstract />
+        <SRS>EPSG:3034</SRS>
+        <SRS>EPSG:3575</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:3034" minx="-587060.16" miny="-1404774.2296000002" maxx="7600887.1296" maxy="6783173.06" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3575" minx="-4889334.802954878" miny="-4889334.803445122" maxx="4889334.803445122" maxy="4889334.802954878" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+      </Layer>
+      <Layer>
+        <Name>toporaster3_rik</Name>
+        <Title>Toporaster - Rett i kartet</Title>
+        <Abstract />
+        <SRS>EPSG:32633</SRS>
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>sirkumpolar_grunnkart</Name>
+        <Title>Sirkumpolar grunnkart</Title>
+        <Abstract />
+        <SRS>EPSG:3408</SRS>
+        <SRS>EPSG:3575</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:32633</SRS>
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:3575" minx="-4889334.802954878" miny="-4889334.803445122" maxx="4889334.803445122" maxy="4889334.802954878" />
+        <BoundingBox SRS="EPSG:3408" minx="-180.0" miny="-270.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+      </Layer>
+      <Layer>
+        <Name>sirkumpolar_stedsnavn</Name>
+        <Title>Sirkumpolar stedsnavn</Title>
+        <Abstract />
+        <SRS>EPSG:3408</SRS>
+        <SRS>EPSG:3575</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:32633</SRS>
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:3575" minx="-4889334.802954878" miny="-4889334.803445122" maxx="4889334.803445122" maxy="4889334.802954878" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3408" minx="-180.0" miny="-270.0" maxx="180.0" maxy="90.0" />
+      </Layer>
+      <Layer>
+        <Name>bakgrunnskart_forenklet</Name>
+        <Title>Bakgrunnskart forenklet</Title>
+        <Abstract />
+        <SRS>EPSG:3035</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25832</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:25835</SRS>
+        <SRS>EPSG:32632</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:32635</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:25835" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:32632" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:25832" minx="-2000000.0" miny="3500000.0" maxx="3545984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3035" minx="2426378.0132" miny="-2288679.69439904" maxx="6293974.62149952" maxy="5446513.5222" />
+        <BoundingBox SRS="EPSG:32635" minx="-3500000.0" miny="3500000.0" maxx="2045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+      </Layer>
+      <Layer>
+        <Name>gebco</Name>
+        <Title>GEBCO</Title>
+        <Abstract>Sirkumpolaert bakgrunnskart med GEBCO 2014 dybdedata, landomraader, sjoomraader, kystkonturer, isbreer og riksgrenser fra Vmap0.</Abstract>
+        <SRS>EPSG:3575</SRS>
+        <SRS>EPSG:3857</SRS>
+        <SRS>EPSG:4258</SRS>
+        <SRS>EPSG:4326</SRS>
+        <SRS>EPSG:25833</SRS>
+        <SRS>EPSG:32633</SRS>
+        <SRS>EPSG:900913</SRS>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:3857" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+        <BoundingBox SRS="EPSG:4258" minx="-16.1" miny="28.419999871999998" maxx="39.650000128" maxy="84.17" />
+        <BoundingBox SRS="EPSG:25833" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:32633" minx="-2500000.0" miny="3500000.0" maxx="3045984.0" maxy="9045984.0" />
+        <BoundingBox SRS="EPSG:4326" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0" />
+        <BoundingBox SRS="EPSG:3575" minx="-4889334.802954878" miny="-4889334.803445122" maxx="4889334.803445122" maxy="4889334.802954878" />
+        <BoundingBox SRS="EPSG:900913" minx="-2.003750834E7" miny="-2.0037508345578495E7" maxx="2.0037508345578495E7" maxy="2.003750834E7" />
+      </Layer>
+    </Layer>
+  </Capability>
+</WMT_MS_Capabilities>

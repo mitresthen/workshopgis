@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "jpw7wf2ng": {
+      "type": "vector",
+      "tiles": ["http://localhost:8080/maps/bonn/{z}/{x}/{y}.vector.pbf?"],
+      "minZoom": 0,
+      "maxZoom": 14
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "road",
+      "type": "line",
+      "source": "jpw7wf2ng",
+      "source-layer": "road",
+      "paint": {"line-color": "rgba(190, 17, 17, 1)"}
+    }
+  ],
+  "id": "d9fld78n2"
+}

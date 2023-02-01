@@ -1,0 +1,47 @@
+{
+  "version": 8,
+  "name": "OSM Liberty",
+  "metadata": {
+    "maputnik:license": "https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md",
+    "maputnik:renderer": "mbgljs",
+    "openmaptiles:version": "3.x"
+  },
+  "sources": {
+    "knalshg5p": {
+      "type": "vector",
+      "tiles": [
+        "https://tiles-a.basemaps.cartocdn.com/vectortiles/carto.streets/v1/{z}/{x}/{y}.mvt"
+      ],
+      "minZoom": 0,
+      "maxZoom": 14
+    }
+  },
+  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "layers": [
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "knalshg5p",
+      "source-layer": "water",
+      "paint": {"fill-color": "rgba(19, 149, 203, 1)"}
+    },
+    {
+      "id": "building",
+      "type": "fill",
+      "source": "knalshg5p",
+      "source-layer": "building",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "paint": {"fill-color": "rgba(142, 67, 67, 1)"}
+    },
+    {
+      "id": "cover",
+      "type": "fill",
+      "source": "knalshg5p",
+      "source-layer": "landcover",
+      "paint": {"fill-color": "rgba(31, 86, 64, 1)"}
+    }
+  ],
+  "id": "osm-liberty"
+}
